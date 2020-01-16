@@ -47,7 +47,7 @@ class Test extends React.Component {
 
 
         return (
-             <div>
+             <div className="buttonbox">
                  <button id="btn-content" className={btn_class}
                          onClick={this.changeColor.bind(this)}>
                            {this.state.status ? 'Certificate Verified' : 'Failed'}
